@@ -46,10 +46,12 @@ Assumptions:
 - hence, genotypes are only encoded as 0, 1, or 2 depending on effected allele count
 - some independence assumption amongst SNPs -> **ASSUMING NO LINKAGE DISEQUILIBRIUM**
 
-![[Pasted image 20260313225340.png]]
+<img width="840" height="840" alt="image" src="https://github.com/user-attachments/assets/4f1fad86-89eb-42e8-b102-34bcceab1088" />
+
 Fig. 1: Manhattan Plot for simulated BioGWAS data with zero LD 
   
-![[Pasted image 20260313225434.png]]
+<img width="840" height="840" alt="image" src="https://github.com/user-attachments/assets/50eb1c5c-ac84-4875-a39c-69ac5e930f22" />
+
 Fig 2: Volcano plot for simulated BioGWAS data with zero LD 
 
 
@@ -74,13 +76,16 @@ $$ y = X \cdot \beta + \epsilon $$
 - LD decays exponentially with distance
 - $\text{Cor}(\text{SNP}_i, \text{SNP}_j) = \rho^{|i-j|}$ where $\rho$ is the LD decay parameter
 
-![[Pasted image 20260313225850.png]]
+<img width="1800" height="1440" alt="image" src="https://github.com/user-attachments/assets/15b6aa2f-d1af-454b-a41d-39e88c114a8d" />
+
 Fig. 3: Linkage Disequilibrium Heatmap depicting the correlation between various SNPs
 
-![[Pasted image 20260313225927.png]]
+<img width="1800" height="1440" alt="image" src="https://github.com/user-attachments/assets/e201dc9d-b11e-40ab-a70b-d7cb71f8c618" />
+
 Fig 4: Manhattan Plot for BioGWAS simulated data with Non-Zero LD
 
-![[Pasted image 20260313230006.png]]
+<img width="1800" height="1440" alt="image" src="https://github.com/user-attachments/assets/e1cb003f-84eb-4f77-bd11-fec0af39d1e4" />
+
 Fig 5: Volcano Plot for BioGWAS simulated data with Non-Zero LD
 
 ---
@@ -134,10 +139,12 @@ We simulated 4 different independent GWAS studies using BioGWAS: (shown in table
 4. **Linkage disequilibrium** (realistic correlation structure)
 5. **Some heterogeneity** (effect sizes vary slightly across studies)
 
-![[Pasted image 20260313230301.png]]
+<img width="602" height="129" alt="image" src="https://github.com/user-attachments/assets/d6b414bf-1303-4f36-bfea-23e40cfdd82b" />
+
 Fig 6: Table depicting the simulated 4 GWAS studies to be used for Meta-GWAS.
 
-![[Pasted image 20260313230417.png]]
+<img width="2160" height="1800" alt="image" src="https://github.com/user-attachments/assets/562bb3c4-e50c-43aa-914d-5a85f2622251" />
+
 Fig 7: Manhattan plots of all individual GWAS studies followed by MetaGWAS study combining them. It is clear that increase in number of SNPs leads to increase of chance of identifying causal SNPs.
 
 
@@ -154,15 +161,16 @@ This is a task that is currently in progress. So far, I have switched to using b
 
 These plots are pasted below and are currently in the process of verification. 
 
-![[Pasted image 20260313231149.png]]
+<img width="1600" height="1280" alt="image" src="https://github.com/user-attachments/assets/e1db5770-c292-4ef6-8387-d85a1b672f63" />
+
 Fig 8: Volcano Plot for Creatinine, showing significant SNPs for the real dataset.
 
 
-![[Pasted image 20260313231255.png]]
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/c0583d45-14a3-41a6-8399-d85f876d2da7" />
+
 Fig. 9: Manhattan Plot for Creatinine, showing the address of most significant SNP.
 
+<img width="1600" height="1600" alt="image" src="https://github.com/user-attachments/assets/fb04b3cf-787d-4bd8-b3b1-91d09aa4fc77" />
 
-![[Pasted image 20260313231324.png]]
-Fig 10: QQ Plot for Creatine.
-
+Fig 10: QQ Plot for Creatinine, showing the address of most significant SNP.
 
