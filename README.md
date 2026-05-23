@@ -1,9 +1,8 @@
-# Mid-Term Report: Meta-GWAS Analysis 
+# Report: Meta-GWAS Analysis 
 
 #### Dhruv Gupta
-#### **Date:** March 2026
 
-This is a Mid-Term Report detailing the tasks given and the progress on them / approach used.
+This is a Report detailing the tasks given and the progress on them / approach used.
 
 ---
 # Task 1: *Generating a simulated GWAS summary stat and plot Manhattan, Q-Q and volcano plots*
